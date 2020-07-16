@@ -1,0 +1,51 @@
+{
+  "name": "sih-backend",
+  "version": "1.0.0",
+  "description": "First push",
+  "main": "server.js",
+  "scripts": {
+    "start": "cd src && node server",
+    "docs": "jsdoc -c jsdoc.json",
+    "dev": "cd src && nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://eswar041@bitbucket.org/at-intern/server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/at-intern/server#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "email-templates": "^7.0.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.0.0",
+    "express-jwt": "^6.0.0",
+    "handlebars": "^4.7.6",
+    "helmet": "^3.23.3",
+    "jsdoc": "^3.6.4",
+    "jsonwebtoken": "^8.5.1",
+    "mddir": "^1.1.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.10",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "better-docs": "^2.3.0",
+    "jsdoc-route-plugin": "^0.1.0",
+    "nodemon": "^2.0.4"
+  }
+}
