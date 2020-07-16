@@ -1,0 +1,24 @@
+{
+  "source": {
+    "include": ["src"],
+    "includePattern": ".js$",
+    "excludePattern": "(node_modules/|docs)"
+  },
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc", "closure"]
+  },
+  "plugins": ["plugins/markdown", "jsdoc-route-plugin"],
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": true
+  },
+  "opts": {
+    "encoding": "utf8",
+    "readme": "./readme.md",
+    "destination": "./docs/",
+    "recurse": true,
+    "verbose": true,
+    "template": "node_modules/better-docs"
+  }
+}
