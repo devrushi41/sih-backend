@@ -11,7 +11,7 @@ const {
 const router = express.Router();
 
 /**
- * Route for profile check
+ * Route for profile check 1
  *
  * @name Profie Route
  * @route {GET} /api/v1/profile
